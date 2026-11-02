@@ -6,7 +6,9 @@ Uno studio virtuale per chitarra elettrica che gira interamente nel browser: sce
 
 ## Provalo
 
-- **Online (consigliato):** abilita GitHub Pages sul repository (Settings, Pages, branch `main`, cartella `/root`) e apri l'URL generato. Da HTTPS funzionano al meglio sia l'AudioWorklet sia l'ingresso audio.
+**Demo online: https://vincenzoboellis.github.io/virtualguitarrig/**
+
+- **Online (consigliato):** apri il link qui sopra. Da HTTPS funzionano al meglio sia l'AudioWorklet sia l'ingresso audio. Per pubblicarlo tu stesso con GitHub Pages: il file dell'app deve chiamarsi `index.html` e trovarsi nella cartella principale del branch scelto in Settings, Pages.
 - **In locale:** apri `index.html` in Chrome, Edge, Firefox o Safari recenti, oppure avvia un piccolo server, ad esempio `python3 -m http.server` e vai su `http://localhost:8000`.
 
 Premi **Play** per sentire la chitarra interna, oppure scegli "Ingresso audio" per collegare la tua chitarra (usa le cuffie per evitare feedback) o "File audio" per importare un WAV/MP3.
